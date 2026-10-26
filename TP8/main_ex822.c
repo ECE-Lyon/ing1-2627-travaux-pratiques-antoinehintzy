@@ -9,15 +9,12 @@ int main() {
     // perimetre = (largeur+hauteur) * 2;
     // ici, car perimetre ne se mettre pas à jour plus tard si largeur ou hauteur change.
 
-    printf("Largeur du rectangle ?\n");
-    scanf("%d", &largeur);
-
-    printf("Hauteur du rectangle ?\n");
-    scanf("%d", &hauteur);
+    printf("Saisissez la hauteur et la largeur du rectangle :\n");
+    scanf("%d %d", &hauteur, &largeur);
 
     perimetre = (largeur+hauteur) * 2; // on ne peut calculer le périmètre que quand largeur et hauteur ont leur valeur
 
-    printf("Aire : %d, perimetre : %d.\n", largeur * hauteur, perimetre); // on ne stocke par l'aire dans une variable
+    printf("perimetre : %d, Aire : %d.\n", perimetre, largeur * hauteur); // on ne stocke par l'aire dans une variable
 
     for(int j = 0; j < hauteur; j++) { // Pour chaque ligne
 

@@ -8,13 +8,14 @@ int main() {
 
     // Ce qui est demandé :
     if(nombre % 3 == 0 && nombre >= 10) {
-        printf("Le nombre %d est un multiple de 3 et il est superieur ou egal a 10.\n", nombre);
+        printf("%d est multiple de 3 et il est supérieur ou égal a 10.\n", nombre);
     }
     else {
-        printf("Le nombre %d n'est pas un multiple de 3 ou n'est pas superieur ou egal a 10, ou les deux.\n", nombre);
+        printf("%d n'est pas multiple de 3 ou n'est pas supérieur ou égal a 10.", nombre);
     }
 
     // Pour aller plus loin :
+    printf("--- POUR ALLER PLUS LOIN ---\n");
     if(nombre % 3 == 0 && nombre >= 10) {
         printf("Le nombre %d est un multiple de 3 et il est superieur ou egal a 10.\n", nombre);
     }
